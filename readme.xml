@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="readme/style.ja.xsl" ?>
+<manual>
+<head>
+	<name>GoogleAnalytics Access Counter</name>
+	<summary>Google Analyticsを利用したAjaxのアクセスカウンターです。</summary>
+	<items>
+		<item type="ライセンス" price="0">GNU Free Documentation License</item>
+		<item type="作者" address="ggslyman@gmail.com">ggslyman</item>
+		<item type="ウェブサイト">
+			<link url="http://ggslyman.miraiserver.com/">Slymanの覚書</link>
+		</item>
+		<item type="謝辞">
+			<link url="http://code.google.com/p/gapi-google-analytics-php-interface/">gapi-google-analytics-php-interface</link>
+		</item>
+		<item type="動作環境">PHP5以上必須、JQuery1.6以上推奨</item>
+	</items>
+</head>
+<read>
+	<section>
+	<h>ファイル構成</h>
+	<tree name="root">
+		<li>access_counter_test.html</li>
+		<li>ga.conf</li>
+		<li>ga.php</li>
+		<li>gapi.class.php</li>
+		<li><tree name="css">
+			<li>access_counter.css</li>
+		</tree></li>
+		<li><tree name="js">
+			<li>access_counter.js</li>
+		</tree></li>
+	</tree>
+	
+	<dl>
+	<dt>root/access_counter_test.html 動作テスト用html</dt>
+	<dd>実際に利用する場合はこのファイルを参考にDIVタグを配置したい位置に記述してください</dd>
+	<dt>root/ga.conf</dt>
+	<dd>GoogleAnalyticsのアカウント情報を記述してください</dd>
+	<dt>root/ga.php</dt>
+	<dd>GoogleAnalyticsのAPI情報をXML化するラッパーです</dd>
+	<dt>root/gapi.class.php</dt>
+	<dd>GoogleAnalyticsAPIのPHPラッパーです。</dd>
+	<dt>root/css/access_counter.css</dt>
+	<dd>カウンタの装飾用CSSです</dd>
+	<dt>root/js/access_counter.js</dt>
+	<dd>XMLパーサーおよびカウンタのHTML出力JavaScriptです。</dd>
+	</dl>
+	</section>
+	
+	<section>
+	<h>使い方</h>
+	<p>設定ファイル (ga.conf) をテキストエディタなどで開き、GoogleAnalyticsのアカウント情報を記述します。</p>
+	<p>その後はPHP実行環境に配置してください。</p>
+	</section>
+
+	
+	<section>
+	<h>更新履歴</h>
+	<dl type="repository">
+	<dt revision="0.1">2011-06-05</dt>
+	<dd>初回リリース</dd>
+	</dl>
+	</section>
+	
+</read>
+</manual>

@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+html,body{
+background:		#efefef;
+margin:			0px;}
+
+div#container{
+outline:			1px solid #888;
+border:			1px solid white;
+padding:			20px;
+margin:			20px;
+background:		white url(bg.png) repeat-x;}
+
+/* for IE6 */
+div#container{
+_border:			1px solid #888;}
+
+div#container a{
+text-decoration:		none;
+color:			blue;}
+
+div#container a:visited{
+color:			purple;}
+
+div#container a:hover{
+text-decoration:		underline;}
+
+div#container h1{
+text-align:			center;
+letter-spacing:		5px;
+font-weight:		bold;
+font-size:			200%;
+margin:			15px 10px;}
+
+div#container,
+div#container div#head{
+text-align:			center;}
+
+div.section{
+text-align:			left;
+margin-bottom:		70px;}
+
+div#container p#summary{
+width:			70%;
+background-color:	white;
+font-weight:		bold;
+font-size:			90%;
+text-align:			center;
+border:			1px solid #bbb;
+padding:			10px 20px;
+margin:			20px auto;}
+
+div#container dl dt{
+font-weight:		bold;
+padding:			5px 40px;}
+
+div#container dl dd{
+display:			list-item;
+list-style:			square none inside;
+padding:			0px 20px;}
+
+div#container table{
+border-collapse:		collapse;
+margin:			40px;
+font-size:			90%;}
+
+div#container table tr{
+border:			1px solid #aaa;}
+
+div#container table th,
+div#container table td{
+padding:			5px 15px;
+text-align:			left;}
+
+div#container table th{
+background-color:	#426d93;
+color:			white;}
+
+div#container table tr.odd td{
+background-color:	#eee;}
+
+div#container table ruby rp,
+div#container table ruby rt{
+font-size:			80%;}
+
+div#container h2{
+padding:			0px 20px;
+margin:			10px 10px;
+color:			#555;
+border-bottom:		1px solid #bdc2c6;}
+
+div#container p{
+padding:			3px 30px;}
+
+div#head ol,
+div#head ul{
+padding:			0px;
+margin:			0px 20px;}
+
+div.section ol,
+div.section ul{
+margin:			0px 30px;
+padding:			20px 30px;}
+
+div#container ol.tree,
+div#container ol.tree ol{
+padding:			0px;
+margin:			0px;
+list-style-type:		none;}
+
+div#container ol.tree{
+padding:			0px;
+margin:			20px 30px;}
+
+div#container ol.tree ol{
+padding-left:		25px;
+background-image:	url(28.png);
+background-color:	white;
+background-repeat:	repeat-y;}
+
+div#container ol.tree ol li{
+margin-left:		-25px;
+padding-left:		25px;
+background-image:	url(268.png);
+background-repeat:	no-repeat;}
+
+div#container ol.tree li.last-item{
+background:		white url(68.png) no-repeat;
+margin-bottom:		0.5em;}
+
+div#container ol.tree li.folder{
+background-image:	url(368.png);
+background-repeat:	no-repeat;}
+
+div#container ol.root{
+margin-left:		24px;}
+
+div#container li.root{
+padding-left:		24px;
+background-image:	url(468.png);
+background-repeat:	no-repeat;}

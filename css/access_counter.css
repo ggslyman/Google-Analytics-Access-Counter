@@ -1,0 +1,84 @@
+/* アクセスカウンタ */
+#header .right{
+	color: #2b2d24;
+	width:600px;
+	height:53px;
+	float:right;
+}
+img#load{
+	padding-top:15px;
+	padding-left:330px;
+}
+div#load img{
+	height:33px;
+	padding-top:20px;
+}
+div.visits{
+}
+div.pageviews{
+}
+div#access-counter{
+	Width:100%;
+}
+div#counter-box{
+	margin-right:10px;
+	padding-top:13px;
+	width:600px;
+	height:53px;
+	text-align:right;
+}
+div#pvs{
+	color:#007F00;
+	background-color:#FFFFFF;
+	width:590px;
+	padding-right:10px;
+	float:right;
+	text-align:right;
+	font-weight:bold;
+	vertical-align:bottom;
+	position:absolute;
+}
+div#pvs a{
+	cursor:pointer;
+}
+span#access-counter-header{
+	font-size:1.8em;
+}
+span#access-count{
+	font-size:2.2em;
+}
+div#counter{
+	text-align:left;
+	top:30px;
+	left:400px;
+	padding:5px;
+	margin:5px;
+	display:none;
+	width:170px;
+	position:relative;
+	background-color:#FFFFFF;
+	border:2px solid #999999;
+}
+div#counter-close{
+	float:right;
+	text-align:right;
+	font-weight:bold;
+}
+div#counter-close a{
+	cursor:pointer;
+}
+div.access{
+	color:#007F00;
+	font-weight:bold;
+	font-size:1.2em;
+	line-height:1.4em;
+}
+div.access_date{
+}
+div.pageviews{
+	padding-left:1.6em;
+}
+div.visits{
+	padding-left:1.6em;
+}
+/* アクセスカウンタ */
